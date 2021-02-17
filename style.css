@@ -1,21 +1,45 @@
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: 48px;
+margin:0px;
+padding:0px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 72px;
+color: white;
 }
 
 p{
- font-family: Georgia, 'Times New Roman', Times, serif;
+margin:0px;
+padding:25px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size:22px;
+color:white;
+}
+
+body, html
+{
+    height:100%;
+    margin: 0px;
 }
 
 .navbar
 {
     text-align: center;
     overflow: hidden;
-    background-color:azure;
+    background-color:lightslategray   ;
+    padding:15px;
+}
+
+.siteInfo
+{
+    padding:200px;
+}
+
+.aboutInfo
+{
+    padding:25px;
 }
 
 .navbar a{
-    color: cornflowerblue;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: black;
@@ -24,11 +48,26 @@ p{
 }
 
 .navbar a:hover{
-    background-color: teal;
+    background-color: lightcoral;
     color: black;
 }
 
 .navbar a:active{
     background-color: gray;
     color:white;
+}
+
+.background
+{
+  /* The image used */
+  background-image: url("background.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
