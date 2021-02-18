@@ -9,7 +9,7 @@
 <div class="navbar">
     <a class="active" href="index.html">Home</a>
     <a href="about.html">About</a>
-    <a href="account.html">Login</a>
+    <a href="account.html">My Account</a>
 </div>
 
 
@@ -136,7 +136,7 @@
                     oktaSignIn.tokenManager.add('idToken', idToken);
 
                     window.location.hash = '';
-                    document.getElementById("messageBox").innerHTML = "Hello, " + idToken.claims.email + "! You just logged in! :)";
+                    document.getElementById("messageBox").innerHTML = "Welcome " + idToken.claims.email + "!";
                 },
                 function error(err) {
                     console.error(err);
@@ -146,7 +146,7 @@
             oktaSignIn.session.get(function (res) {
                 // Already logged in
                 if (res.status === 'ACTIVE') {
-                    document.getElementById("messageBox").innerHTML = "Hello, " + res.login + "! You are *still* logged in! :)";
+                    document.getElementById("messageBox").innerHTML = "Welcome back" + res.login + ".";
                     return;
                 }
                 oktaSignIn.renderEl(
@@ -159,10 +159,6 @@
             });
         }
     </script>
-</body>
-
-
-<body>
 </body>
 
 </html>
