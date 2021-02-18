@@ -17,13 +17,65 @@
 <style>
     #messageBox {
         padding: 50px;
-        background-color: lightgray;
-        max-width: 50%;
+        background-color: lightcoral;
+        max-width: 40%;
         margin: auto;
         margin-top: 100px;
         text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
         font-size: 25px;
+    }
+
+    #okta-sign-in.auth-container.main-container[data-se=auth-container] {
+        border-color: #000000;
+        background: #222222;
+    }
+
+    #okta-sign-in .o-form .o-form-input #okta-signin-username {
+        background: #111;
+        color: #dddddd;
+    }
+
+    #okta-sign-in .o-form-input-name-username {
+        border: 0 !important;
+        color: #dddddd;
+    }
+
+    #okta-sign-in .o-form .o-form-input #okta-signin-password {
+        background: #111;
+        color: #dddddd;
+    }
+
+    #okta-sign-in .o-form-input-name-password {
+        border: 0 !important;
+        color: #dddddd;
+    }
+
+    #okta-sign-in.auth-container .o-form-head {
+        color: #dddddd;
+    }
+
+    #okta-sign-in.auth-container .button-primary {
+        background: #111 !important;
+        border-color: #111 !important;
+        color: #dddddd !important;
+    }
+
+    #okta-sign-in.auth-container.main-container .auth-footer {
+        color: #dddddd !important;
+    }
+
+    #okta-sign-in.auth-container.main-container .auth-header {
+        border-color: #111;
+    }
+
+    #okta-sign-in .o-form .custom-checkbox label {
+        color: #ddd;
+    }
+
+    #okta-sign-in .custom-checkbox input {
+        background: #111;
     }
 </style>
 
@@ -46,8 +98,8 @@
     </div>
     <script type="text/javascript">
         var oktaSignIn = new OktaSignIn({
-            baseUrl: "{{ 127.0.0.1:8080 }}",
-            clientId: "{{ 0oa6dbzbk3HGlog415d6 }}",
+            baseUrl: "https://dev-38095434.okta.com",
+            clientId: "0oa6dbzbk3HGlog415d6",
             authParams: {
                 issuer: "default",
                 responseType: ['token', 'id_token'],
