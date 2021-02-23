@@ -7,5 +7,10 @@ The goal of today is to lightly start implementing the account/login functionali
 2020-02-18
 Continuing on from yesterday but focusing more on the signing up aspect of the account and also the "logged in/welcome" page
 
+<<<<<<< HEAD
 2020-02-23
 The plan of today is to implement thre API calls and also showcase the information in the logged in state
+=======
+2020-02-20
+Beginning implementation of the API calls and also showcasing the received information in the "logged in state"
+>>>>>>> master
