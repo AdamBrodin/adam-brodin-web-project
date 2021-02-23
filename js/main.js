@@ -10,6 +10,8 @@ var mainApp = {};
         }, function () { })
     }
 
+    mainApp.logout = logout;
+
     var init = function () {
         firebase.auth().onAuthStateChanged(function (user) {
             if (user) {
@@ -29,6 +31,4 @@ var mainApp = {};
     }
 
     init();
-
-    mainApp.logout = logout;
 })();
