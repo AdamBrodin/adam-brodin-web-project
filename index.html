@@ -5,6 +5,7 @@
 <head>
     <title>Frontend Project</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
 </head>
 
 <body>
@@ -16,14 +17,23 @@
         </div>
     </header>
 
-    <div class="background">
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="src/background-video.mp4" type="video/mp4">
+        </video>
+
         <div class="siteInfo">
             <h1 style="text-align: center;">Frontend Project</h1>
-            <p style="font-size: 36px; text-align: center;">This website has been created to display my front-end web
+            <p style="font-size: 36px; text-align: center;">This website has been created to display my front-end
+                web
                 development skills,
                 welcome!</p>
         </div>
     </div>
+
+    <script>
+        document.getElementById("bg-video").playbackRate = 0.8;
+    </script>
 </body>
 
 </html>
