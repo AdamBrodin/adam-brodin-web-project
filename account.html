@@ -20,44 +20,10 @@
 <title>My Account</title>
 
 <body>
-<<<<<<< HEAD
-    <div class="container">
-        <div id="messageBox" class="jumbotron">
-            Please log in to continue.
-        </div>
-        <div id="okta-login-container"></div>
-    </div>
-    <script type="text/javascript">
-        var oktaSignIn = new OktaSignIn({
-            baseUrl: "https://dev-38095434.okta.com",
-            clientId: "0oa6dbzbk3HGlog415d6",
-            authParams: {
-                issuer: "default",
-                responseType: ['token', 'id_token'],
-                display: 'page'
-            },
-            registration: {
-                parseSchema: function (schema, onSuccess, onFailure) {
-                    onSuccess(schema);
-                },
-                preSubmit: function (postData, onSuccess, onFailure) {
-                    onSuccess(postData);
-                },
-                postSubmit: function (response, onSuccess, onFailure) {
-                    onSuccess(response);
-                }
-            },
-            features:
-            {
-                registration: true
-            }
-        });
-=======
     <!-- Logged out container-->
     <div id="firebaseui-auth-container">
         <h1 style="text-align: center; margin: 36px">Please login to continue</h1>
     </div>
->>>>>>> master
 
     <!-- Logged in container-->
     <div id="main_container" style="display:none;">
