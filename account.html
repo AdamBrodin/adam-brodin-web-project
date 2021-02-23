@@ -93,7 +93,6 @@
         <div id="messageBox" class="jumbotron">
             Please log in to continue.
         </div>
-        <!-- sign in form -->
         <div id="okta-login-container"></div>
     </div>
     <script type="text/javascript">
@@ -107,15 +106,12 @@
             },
             registration: {
                 parseSchema: function (schema, onSuccess, onFailure) {
-                    // handle parseSchema callback
                     onSuccess(schema);
                 },
                 preSubmit: function (postData, onSuccess, onFailure) {
-                    // handle preSubmit callback
                     onSuccess(postData);
                 },
                 postSubmit: function (response, onSuccess, onFailure) {
-                    // handle postsubmit callback
                     onSuccess(response);
                 }
             },
