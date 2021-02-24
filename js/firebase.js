@@ -1,4 +1,3 @@
-
 var hasInit = false;
 var firebaseConfig = {
     apiKey: "AIzaSyCHO5bNhQN7gMEC9EjCKO11vcqrFX5jE_I",

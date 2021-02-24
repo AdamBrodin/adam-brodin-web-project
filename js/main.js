@@ -22,7 +22,8 @@ var mainApp = {};
                 authContainer.style.display = "none";
 
                 // Changes the text to welcome the user;
-                welcomeUserText.innerHTML = "Welcome " + firebase.auth().currentUser.displayName + "!";
+                var welcomeMessage = "Welcome " + firebase.auth().currentUser.displayName + "!";
+                welcomeUserText.innerHTML = welcomeMessage;
             } else {
                 // No user is signed in.
                 mainContainer.style.display = "none";
