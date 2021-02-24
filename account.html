@@ -26,14 +26,19 @@
     </div>
 
     <!-- Logged in container-->
-    <div id="main_container" style="display:none;">
+    <div id="main_container" class="background" style="display:none">
         <h1 id="welcome-user-text" style="text-align: center;">Welcome</h1>
+        <h2 style="font-weight: normal;">Here's a space picture, just for <b>you.</b></h2>
+        <p id="nasa-image-explanation">A space
+            image from NASA.
+        </p>
         <button onclick="mainApp.logout()" id="signoutbtn">Sign out</button>
     </div>
 
-    <script src="js/firebase.js"></script>
+    <script src=" js/firebase.js"></script>
     <script src="js/login.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/nasa.js"></script>
 </body>
 
 </html>
