@@ -1,5 +1,8 @@
 # **Log book**
 
+## 2020-02-24 (V2)
+After doing some research I've come to find out that the HaveIBeenPwned API has a fee of
+$3.50/month which in this case (educational) is not worth it, I am therefore going to switch to another API, the NASA API which can be used to fetch space images & videos.
 ## 2020-02-24
 I've been a bit lackluster in terms of documenting my process but here's the summary the past few days;
 I've changed my Auth API provider from Okta to Firebase due to it being much more simple and having well-written docs.

@@ -43,7 +43,8 @@ body, html
 
 .aboutInfo
 {
-    padding:25px;
+    padding:10px;
+    text-align: center;
 }
 
 .navbar a{
