@@ -1,5 +1,9 @@
 # **Log book**
 
+## 2020-02-25
+There isn't much left to do so today is going to be spent finishing things up and making sure
+everything is in order for the deadline (tomorrow night).
+
 ## 2020-02-24 (V2)
 After doing some research I've come to find out that the HaveIBeenPwned API has a fee of
 $3.50/month which in this case (educational) is not worth it, I am therefore going to switch to another API, the NASA API which can be used to fetch space images & videos.
