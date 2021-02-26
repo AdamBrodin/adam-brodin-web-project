@@ -8,7 +8,7 @@ color: white;
 
 p{
 margin:0px;
-padding:25px;
+padding:10px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size:22px;
 color:white;
@@ -116,8 +116,6 @@ body, html
   text-align: center;
   color:white;
   font-size: 22px;
-
-  alt: "The daily space picture from NASA.";
 } 
 
 @media screen and (max-width: 1024px) {

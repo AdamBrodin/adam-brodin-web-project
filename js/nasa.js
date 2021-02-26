@@ -7,7 +7,6 @@ const getNasaData = async () => {
 
         // Parses the response to JSON
         const data = await respone.json();
-        console.log(data);
         setImage(data);
     } catch (error) {
         console.log(error);
