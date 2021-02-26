@@ -1,5 +1,8 @@
 # **Log book**
 
+## 2020-02-26
+Deadline day - end of project
+
 ## 2020-02-25
 There isn't much left to do so today is going to be spent finishing things up and making sure
 everything is in order for the deadline (tomorrow night).
